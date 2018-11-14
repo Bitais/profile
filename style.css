@@ -1,0 +1,112 @@
+/* FONTS and COLORS */
+
+h1 {
+  color: #E63B2E;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+body {
+  color: rdb(20, 20, 20);
+  background-color: rgb(200, 200, 200);
+  font-size: 14px;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #7E8287;
+}
+
+a:hover {
+  color: #F85A3E;
+  opacity: 0.8;
+}
+
+/* Custom design class */
+.container {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.box-white {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 60px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+.box-grey {
+  color: white;
+  background-color: rgb(100, 100, 100);
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-red {
+  color: white;
+  background-color: #E63B2E;
+  margin: 10px;
+  padding: 10px 20px ;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.img-squared {
+  border-radius: 1%;
+  width: 200px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+/* MEDIA */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
